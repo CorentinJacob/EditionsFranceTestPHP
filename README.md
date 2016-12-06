@@ -2,9 +2,13 @@
 
 #Installation
 
-- Installer le script de la base de données MySQL : "nomdufichier"
-- Créer un utilisateur avec des droits d'édition pour cette base de données
-- Indiquer les coordonnéees de la base de données dans le fichier "/config.php"
+- Sur MySQL, créez une base de données (le nom est de votre choix, il sera à indiquer dans un fichier plus tard)
+- Importez le script de la base de données MySQL : "/users.sql"
+- Créez un utilisateur avec des droits d'édition pour cette base de données
+- Indiquez les coordonnéees de connexion de la base de données dans le fichier "/config.php" :
+ - Nom de la base de données
+ - Adresse hôte
+ - Identifiants de l'utilisateur 
 
 #Versions
 
